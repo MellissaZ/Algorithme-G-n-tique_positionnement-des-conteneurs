@@ -18,7 +18,8 @@
 #####                        Où        T : Tableau de la date de départ de chaque conteneur.
 ##### R : Tableau de  la taille de chaque conteneur.
 ##### Le graphe G (K,T,R) est construit de la manière suivante. Un sommet du graphe correspond à un conteneur. Pour simplifier les notations, on utilisera l'indice k pour désigner à la fois un conteneur et le sommet du graphe qui lui correspond. On a une arête entre deux sommets k et k0 si et seulement si les conteneurs correspondants ne peuvent pas être stockés dans une même pile. En d'autres termes, si Rₖ ≠ Rₖ₀, car deux conteneurs qui ont des dimensions inégales ne peuvent pas être placés dans une même pile.
-<img width="100%" height="auto"/>![](graphe.png)
+![graphe](https://user-images.githubusercontent.com/88494947/146921481-d9a99e54-c395-42bb-8913-d01dde6e02f4.PNG)
+
 
 ### Critères de développement de l’algorithme génétique
 ##### L’algorithme consiste à positionner des conteneurs dans les piles des zones de stockage. Pour développer l’algorithme génétique pour notre étude, nous prenons en compte les contraintes suivantes :
@@ -60,7 +61,7 @@
 
 #### <li> Application de l’Algorithme génétique   </li>
 ##### Ici nous expliquons l’application de notre algorithme génétique et pour se faire, nous commençons d'abord par chercher les bonnes valeurs des paramètres utilisés dans cet algorithme. Chaque paramètre est traité individuellement, en fixant les autres paramètres, et en le faisant varier. Les résultats obtenus sont marqués dans le tableau suivant :
-<img width="50%" height="auto"/>![](T.png)
+![T](https://user-images.githubusercontent.com/88494947/146921499-25870947-2393-4aac-9d48-5327e0e925c6.PNG)
 
 ##### On applique notre algorithme génétique jusqu’à avoir les deux meilleurs individus de notre population, ensuite on prend le meilleur individu entre ces deux derniers comme meilleur solution (solution optimale) pour notre problématique. <br>On applique l’algorithme génétique sur les trois zones et chaque zone aura sa propre solution  
 
