@@ -69,4 +69,6 @@
 ##### Cet application est réalisée avec Java,JavaFx et MySQL.
 https://user-images.githubusercontent.com/88494947/153709377-dfac83d0-b757-4ea2-8d26-b33c1f926597.mp4
 
+https://user-images.githubusercontent.com/88494947/153712186-7c6bf554-3c6e-4b95-9b18-d0c9a0659bc5.mp4
+
 
